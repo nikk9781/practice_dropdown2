@@ -1,0 +1,39 @@
+ body
+{
+    background-color: bisque;
+    margin: 0px;
+}
+nav
+{
+    background-color: black;
+}
+#mainList
+{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    list-style-type: none;
+}
+a
+{
+    text-decoration: none;
+    color: yellowgreen;
+    padding: 20px;
+    display: block;
+}
+a:hover
+{
+    background-color: white;
+    color: coral;
+}
+.subList
+{
+    list-style-type: none;
+    padding: 0px;
+    position: absolute;
+    display: none;
+}
+.drop:hover .subList
+{
+    display: block;
+}
